@@ -1,0 +1,68 @@
+<svg class="clickButton background" viewport-fill="fb-black">
+  <use id="stats-cycle" href="#cycleview">
+    <use href="#cycleview-item" class="cycle-item">
+      <text id="userSteps" class="cycle-text"></text>
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <text id="userCalories" class="cycle-text"></text>
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <text id="userDistance" class="cycle-text"></text>
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <text id="userHR" class="cycle-text"></text>
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <text id="userActivity" class="cycle-text"></text>
+    </use>
+  </use>
+
+  <text id="myClock" x="50%" y="50%+ 10"
+    fill="white" font-size="32" font-family="System-Regular"
+    text-anchor="middle" text-length="20"></text>
+    
+  <use id="bottomLeftButton" href="#push-button" y="100%-125" height="125" width="174"
+    fill="fb-black" font-family="System-Regular" font-size="24" opacity="0.5">
+    <set href="#text" attributeName="text-buffer" to="None" />
+    <set href="#text" attributeName="fill" to="fb-black"/>
+    <set href="#text" attributeName="text-length" to="999"/>
+
+
+  </use>
+  <use id="bottomRightButton" href="#push-button" x = "175" y="100%-125" height="125" width="174"
+    fill="fb-black" font-family="System-Regular" font-size="24" opacity="0.5" >
+    <set href="#text" attributeName="text-buffer" to="None" />
+    <set href="#text" attributeName="fill" to="fb-black"/>
+    <set href="#text" attributeName="text-length" to="999"/>
+
+  </use>
+  <use id="topRightButton" href="#push-button" x = "175" y="0" height="125" width="174"
+    fill="fb-black" font-family="System-Regular" font-size="24">
+    <set href="#text" attributeName="text-buffer" to="None"/>
+    <set href="#text" attributeName="fill" to="fb-black"/>
+    <set href="#text" attributeName="text-length" to="999"/>
+
+  </use>
+  <use id= "topLeftButton" href="#push-button" x="0" y="0" height="125" width="174"
+    fill="fb-black" font-family="System-Regular" font-size="24">
+    <set href="#text" attributeName="text-buffer" to="None"/>
+    <set href="#text" attributeName="fill" to="fb-black"/>
+    <set href="#text" attributeName="text-length" to="999"/>
+  </use>
+ 
+  <defs>
+    <symbol id="custom-textarea" type="dynamic-textarea" system-events="all">
+      <textarea id="text" fill="white" x="0" y="0" width="100%" font-size="25" />
+    </symbol>
+  </defs>
+
+  <use id="centralTextArea" href="#custom-textarea" x="10" y="10" width="100%-20">
+    <set href="text" attributeName="text-buffer" to="Lorem ipsum dolor sit amet,
+    cum te cibo appareat. No per paulo hendrerit similique, vim et prima
+    appareat, ea elitr delectus deterruisset quo." />
+  </use>
+
+  
+  
+ 
+</svg>
