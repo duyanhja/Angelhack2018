@@ -1,0 +1,20 @@
+.background {
+  viewport-fill: grey;
+}
+
+#demotext {
+  fill: white;
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+}
+
+.cycle-text {
+  text-anchor: end;
+  text-length: 99;
+   y: 95%;
+  x:99%;
+  font-size: 14;
+}

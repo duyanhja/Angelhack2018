@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "8a597e1f-d5af-4cb4-a44f-8bd3df7f861e",
+    "appType": "clockface",
+    "appDisplayName": "AngelHackTest",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "AngelHackTest"
+      }
+    }
+  }
+}
